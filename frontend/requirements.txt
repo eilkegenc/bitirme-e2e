@@ -1,0 +1,4 @@
+streamlit
+requests
+# Optional: if you want mic input directly in Streamlit
+# streamlit-audiorecorder

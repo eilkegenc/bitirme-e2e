@@ -1,0 +1,22 @@
+fastapi
+uvicorn[standard]
+python-multipart # For file uploads
+pydantic
+# From your notebook
+torch
+torchaudio
+# Ensure this installs the nyrahealth fork if it's not published on PyPI
+# You might need: transformers @ git+https://github.com/nyrahealth/transformers.git@crisper_whisper
+# If it's a private repo or needs specific handling, Dockerfile is better place.
+transformers
+phonemizer[espeak] # This installs phonemizer and its espeak extra dependencies
+pydub
+Levenshtein
+scikit-learn
+joblib
+gTTS
+pandas # For the classification service
+# For config.py if you choose to use pydantic-settings
+# pydantic-settings
+# For logging colorization (optional, good for dev)
+# loguru
